@@ -1,0 +1,133 @@
+.grey{color: #8a8a8a;}
+.margin0{ margin: 0px !important;}
+.allcar-main{
+  width: 1190px;@extend %div-centerMG;
+  .link-bar{ font-size: 14px; color:#606060; margin-top: 20px; margin-bottom: 20px; }
+  .nav-bar{ width: 100%; background: #f7f7f7; margin-bottom: 20px; font-size: 16px; padding: 12px 0px;
+    ul{ margin: 0px; font-size: 0px;}
+    li{ margin-left: 16px; margin-right: 16px;padding: 6px 12px;color: #242424; font-size: 16px;
+      &:first-child{ color: #606060;}
+    }
+    li.active{ background: #e33b3b; color: #fefefe; padding: 6px 12px; @include border-radius(4px);}
+  }
+  .img-box{
+    width: 282px; margin-right: 20px; margin-bottom: 30px; float: left; position: relative;
+    &:nth-of-type(4n){ margin-right: 0px;}
+    img{ width: 100%; height: auto; margin-bottom: 20px;}
+    h4{ color: #313131; font-size: 16px; margin-bottom: 5px;}
+    p{ font-size: 14px; color: #606060; span{ font-size: 18px; color: #e33b3b;}}
+    .phone-div{border: 1px solid #e33b3b;
+      bottom: 12px;
+      color: #e33b3b;
+      cursor: pointer;
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      padding: 6px 12px;
+      position: absolute;
+      right: 10px;
+      text-align: center;}
+  }
+}
+.order-div>div{ float: left; overflow: hidden; border:solid 1px #dddddd;  margin-bottom: 20px; font-size: 14px;
+  >span{ display:inline-block; padding: 4px 12px; border-right: solid 1px #dddddd;cursor: pointer;
+    &:last-child{ border-right: none;}
+    &.active{ color: #e33b3b;}
+  }
+}
+
+//洒水车
+#Sscar{
+  .img-box{ @extend %border; padding: 20px;
+    >div{
+    img{ margin-bottom: 0px;}
+  }}
+}
+
+//洒水车首页
+.ssCar-bg{position: relative;
+  .img-bg{ position: relative;
+    &:hover{
+      .play-img{
+        background: rgba(43, 131, 186, 0.75);
+        transition: all 1.2s ease 0s;
+      }
+    }
+  }
+  .play-img{
+    @extend %div-center; background: rgba(229,60,56,0.9);transition: all 1s ease 0.2s; width: 80px; height: 80px; @include border-radius(50%);cursor: pointer;text-align: center; line-height: 80px;
+    span{display: inline-block; margin-left: 8px; margin-bottom: 3px;
+      width: 0;
+      height: 0;
+      vertical-align: middle;
+      border-left: 20px solid #fff;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;}
+
+  }
+  .img-bg img{ width: 100%; height: auto;}
+  .small-img{ background: rgba(#000,0.6); width: 1190px; height: 80px; overflow: hidden; position: absolute; bottom: 30px; @extend %div-centerLR; padding-top: 10px;padding-bottom: 10px;
+    h2{ font-size: 18px; color: #fff; width: 280px;float: left; margin-left: 24px; margin-right: 60px; line-height: 24px;}
+  }
+  .img-list{ float: left; width: 810px;height: 80px;
+    ul{ float: left; margin: 0px; font-size: 0px; overflow: hidden;}
+    li{width:110px; height: 60px; padding: 0px; margin-right: 10px; display: none; float: left;}
+    li:nth-of-type(1),li:nth-of-type(2),li:nth-of-type(3),li:nth-of-type(4),li:nth-of-type(5),li:nth-of-type(6){ display: inline-block; float: left;}
+    li.active{border:solid 3px #e33b3b;}
+    ul img{ width: 100%; height: 100%; }
+    .icon-left,.icon-right{ width: 40px; height: 60px; float: left; margin-right: 10px;}
+    .icon-right{ float: right; margin-right: 0px;}
+  }
+}
+
+
+.ssCar-main{
+  .line{ border-bottom: solid 1px #eeeeee; cursor: pointer; }
+  .title-name{
+    color: #242424;  overflow: hidden;
+    font-size: 0px; vertical-align: middle; line-height:26px;  //解决块级元素 和内联元素  不在同一水平线上，改变默认基线对齐
+    h4{  float: left; font-size: 24px;}
+    a{ font-size: 14px; float: right}
+    .refresh{ width: 19px; height: 20px; margin-right: 10px; margin-bottom: 2px;}
+    .nav-ul{
+      float: left; margin-left: 25px;
+      li{ font-size: 16px; color: #242424; margin-right: 40px; padding-bottom: 15px;
+        &.active{ color: #e33b3b; border-bottom: solid 1px #e33b3b; }
+      }
+    }
+  }
+  .img-box{ position: relative;
+    .icon{ display: inline-block; padding: 6px 15px;color: #fff; background: #ee7033; position: absolute; top: 0px; left: 0px;
+      @include border-radiusD(bottom,right,15px);
+    }
+    .icon-blue{ background: #6badeb;}
+    .icon-yellow{ background: #dbad29;}
+  }
+  .hot-icon{ width: 18px; height: 20px; margin-left: 10px;}
+  .img-span{
+    position: relative;width: 396px; height: 257px; float: left;
+    >img{ width: 396px; height: 257px;}
+    >span{ font-size: 14px; color: $white; position: absolute; bottom: 10px; left: 10px; right: 10px;}
+  }
+
+  .img-panel{ margin-right: 20px; width: 380px; float: left; margin-right: 24px; margin-bottom: 20px;
+    &:last-child{ margin-right: 0px;}
+    .img-info{
+      margin-bottom: 30px;
+      >img{ float: left; width: 180px; height: 120px; margin-right: 20px;}
+      >div{ float:left; width: 180px; height: 120px; overflow: hidden;
+        h4{ font-size: 16px; font-weight: normal; color: #242424; margin-bottom: 15px; line-height: 22px;}
+        p{ font-size: 12px; color: #999999; line-height: 20px;}
+      }
+    }
+    .text-info{ font-size: 14px; color: #242424;
+      li{ line-height: 24px;@extend %ellipsis;
+        span{ color: #c2c2c2; margin-right: 10px; font-size: 24px;}
+      }
+    }
+  }
+
+}
+.marginT20{ margin-top: 20px;}
+.marginB20{ margin-bottom: 20px;}
+.marginT40{ margin-top: 40px !important;}

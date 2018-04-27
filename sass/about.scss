@@ -1,0 +1,56 @@
+//关于我们界面
+.link-nav{ font-size: 14px; color: #606060; padding: 20px 0px;}
+.about-info{ margin-bottom: 30px;}
+.about-left{ float: left; width: 206px;
+  >ul{
+    li{ padding: 12px 0px; font-size: 16px; color: #242424; text-align: center;
+      &.active{ color: #e33b3b;}
+    }
+  }
+}
+.about-main{ @extend %div-centerMG; width: 1190px;
+  .link-bar{ background: #fafafa; font-size: 18px; padding: 10px 20px;}
+  .text-info{ margin-top: 40px; margin-bottom: 120px;color: #606060;padding: 0px 20px;
+    h4{ text-align: center; margin-top: 30px; margin-bottom: 30px; font-size: 18px; color: #242424;}
+    h4.title{ text-align: center; font-size: 24px; color: #606060; margin-bottom: 30px;}
+    strong.red{ font-size: 18px; color: #e33b3b;}
+    p.red,span.red{ font-size: 14px; color:#e33b3b }
+    >ul li{ line-height: 26px; font-size: 14px; color: #606060; }
+  }
+  .about{
+    width: 982px; float: left; padding-left: 60px;border-left: 1px solid #e5e5e5;
+    .title-name{ font-size: 24px; color:#242424; margin-bottom: 55px; padding: 0px;}
+    >ul li{ line-height: 26px; font-size: 14px; color: #242424; }
+    >p{ margin-top:40px; margin-bottom: 40px;font-size: 14px; color: #242424;}
+    span.red{ font-size: 14px; color:#e33b3b; }
+    >label{ margin-bottom: 30px;}
+    .icon-list{
+      width: 100%; margin-bottom: 65px;
+    }
+    .icon-box{ width: 207px; margin-right: 30px;@include border-radius(6px);@extend %border; text-align:center;padding: 17px 20px; float: left;
+      &:last-child{ margin-right: 0px;}
+      >img{ width: 80px;height: 80px; margin-bottom: 20px;}
+      h4{ font-size: 18px; color: #242424; font-weight: bold; margin-bottom: 13px;}
+      p{ font-size: 14px;color: #242424; line-height: 24px;}
+    }
+  }
+}
+.fontSize18{ font-size: 18px;}
+
+
+//联系我们
+.contact{
+  ul{ font-size: 16px;
+    li{ line-height: 30px !important;}
+    span{ margin-left: 40px;}
+    a{color: #e33b3b;margin-left: 40px; text-decoration: underline;}
+  }
+}
+
+//售后服务
+.red{ color: #e33b3b;}
+.fontSize18{ font-size: 18px;}
+.panelSH{ font-size: 16px; color: #242424; padding-bottom: 70px;
+  h4{ font-size: 18px; color: #242424; font-weight: bold; margin-bottom: 30px; margin-top: 40px;}
+  ul li{ line-height: 30px;}
+}

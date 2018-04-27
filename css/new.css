@@ -1,0 +1,30 @@
+/*
+Sass::SyntaxError: ".new-main" failed to @extend "%div-centerMG".
+The selector "%div-centerMG" was not found.
+Use "@extend %div-centerMG !optional" if the extend should be able to fail.
+
+
+Backtrace:
+d:\336584\Desktop\程力汽车\AKcar--底部修改20170227\sass\new.scss:2
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/extend.rb:61:in `block in check_extends_fired!'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/util/subset_map.rb:106:in `block in each_value'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/util/subset_map.rb:106:in `each'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/util/subset_map.rb:106:in `each_value'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/extend.rb:50:in `check_extends_fired!'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/extend.rb:16:in `visit'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:39:in `css_tree'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:369:in `_render_with_sourcemap'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:286:in `render_with_sourcemap'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/Program Files (x86)/Koala/bin/sass:18:in `load'
+D:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Sass::SyntaxError: \".new-main\" failed to @extend \"%div-centerMG\".\A The selector \"%div-centerMG\" was not found.\A Use \"@extend %div-centerMG !optional\" if the extend should be able to fail.\A "; }

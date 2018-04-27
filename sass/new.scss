@@ -1,0 +1,84 @@
+.new-main{
+  width: 1190px;@extend %div-centerMG;
+  .title-name{ font-size: 14px; color: #fff; background: #242424; padding:10px 20px; margin-bottom: 20px;}
+  .left-list{ width: 220px; margin-right: 20px; float: left; margin-bottom: 20px;
+    .list{
+      @extend %border;font-size: 14px; color:#606060;
+      li{ line-height: 22px; padding: 12px 10px; @extend %borderB;
+        &:last-child{ border-bottom: none 0px;}
+      }
+    }
+  }
+  .main{ float: left; margin-right: 20px; width: 888px;
+    >h4{ font-size: 24px; color: #242424; margin-bottom: 15px; text-align: center;}
+    .small{ font-size: 14px;color:#606060; text-align: center;  margin-bottom: 25px;}
+    p{ margin-bottom: 30px; font-size: 14px; color: #242424; line-height: 22px;}
+    >img{ width: 100%; height: auto; margin-bottom: 30px;}
+    .XGZX-ul{
+      .title-name{ font-size: 18px; color: #242424; padding-bottom: 20px; @extend %borderB; margin-bottom: 20px; background: none; padding-left: 0px;}
+      ul{ width: 50%; float: left; margin-bottom: 60px;
+        li{ line-height: 26px; font-size: 14px; color: #242424;}
+        span{ font-size: 26px; color:#ccc; margin-right: 10px; }
+      }
+    }
+  }
+  .right-list{
+    width: 282px; float: left; margin-bottom: 20px;
+    .list{
+      @extend %border;font-size: 14px; color:#606060;
+      >div{
+        padding-bottom: 20px;@extend %borderB;
+        &:last-child{ border-bottom: none 0px;}
+        >img{ width: 100%;}
+        h4{ font-size: 16px; color: #242424; margin-bottom: 4px; padding-left: 20px;}
+        >span{ font-size: 16px; color:#e33b3b; margin-left: 20px;}
+        p{ padding-left: 20px; color:#606060; font-size: 14px;>span{ font-size: 16px; color:#e33b3b; margin-left: 10px;}}
+      }
+    }
+  }
+  .page-panel{
+    li:first-child,li:last-child{color: #606060;}
+  }
+}
+
+//资讯栏目界面
+.ZX-main{
+  .mian{
+    float: left; width: 888px;box-sizing: border-box; margin-right: 20px;
+    .nav-ul{ margin: 0px; font-size: 0px; margin-bottom: 10px; background: #242424;
+      li{ padding: 9px 20px; font-size: 16px; color: #fff;cursor: pointer;
+        &.active{ background: #e33b3b;}
+      }
+    }
+    #zxImgbg,#newImgbg,#ycImgbg{ img{ width: 100%; height: auto; margin-bottom: -10px;}
+      .carousel-control.left,.carousel-control.right {
+        background-image: none; }
+      .carousel-control {
+        width: 6%;
+        background: rgba(0, 0, 0, 0.7);
+        height: 50px;
+        top: 50%;
+        margin-top: -30px; }
+    }
+    .carousel-caption{ float: left; padding: 8px 20px; background: rgba(#000,0.57); color: #fff; font-size: 18px; position: relative; left: 0px; bottom: 70px;}
+    .list-panel{
+      .box{
+        >img{ width: 282px; height: 160px; float: left; margin-right: 20px;}
+        >div{ float: left; width: 560px; @extend %borderB; padding-bottom: 13px; margin-bottom: 10px;
+          h4{ font-size: 24px; color: #242424; margin-bottom: 12px; margin-top: 5px;}
+          p{ font-size: 16px; color:#606060; line-height: 26px; margin-bottom: 12px;}
+          label{
+            font-size: 14px;color:#606060; font-weight: normal;
+            small{ margin-left: 20px;}
+            span{ font-size: 14px; color:#242424; margin-left: 10px; }
+          }
+        }
+      }
+    }
+    .page-panel{ margin-top: 30px;}
+  }
+  .right-list{
+    .title-name{ margin-bottom: 10px;}
+    small{ color:#606060; }
+  }
+}

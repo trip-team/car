@@ -1,0 +1,165 @@
+@import "include";
+@import "common";
+@import "product";
+@import "allcarType";
+@import "new";
+@import "about";
+.index-main{
+  width: 1190px; @extend %div-centerMG;box-sizing: border-box;
+  .title-name{
+    margin-bottom: 25px; margin-top: 20px;
+    h4{ font-size: 24px; color: $headBar; display: inline-block;}
+    a{ font-size: 14px; color: $headBar;}
+  }
+  .list-panelTH{
+    .bzth-div{
+      h4{ float: left;}
+      div{ float: left; border:solid 1px #dddddd; margin-left: 20px; font-size: 14px;
+        >span{ display:inline-block; padding: 4px 12px; border-right: solid 1px #dddddd;cursor: pointer;
+          &:last-child{ border-right: none;}
+          &.active{ color: #e33b3b;}
+        }
+      }
+    }
+    .list-box{
+      margin: 0 -10px;
+      .col-xs-3{ padding: 0px 10px; margin-bottom: 20px;}
+      .box{ @extend %border;
+        @include border-radius(4px);
+        >img{ width: 100%; height: auto; margin-bottom: 15px;}
+        p{ padding: 0px 20px;
+          del{font-size: 14px; color:#8a8a8a;}
+        }
+        p:nth-of-type(1){ font-size: 16px; color: #313131;}
+        p:nth-of-type(2){
+          margin-bottom: 15px;
+          span{ margin-right: 10px;}
+          span:nth-of-type(1){ font-size: 14px; color:$headRed;}
+          span:nth-of-type(2){ font-size: 22px; color:$headRed;}
+          span:nth-of-type(3){ font-size: 14px; color:#8a8a8a; margin-right: 0px;}
+        }
+
+      }
+      .inBox{
+        position: relative; padding-bottom: 15px; cursor: pointer;
+        small{ font-size: 14px;}
+        &:hover{box-shadow: 1px 1px 3px #e7e7e7;}
+        p:nth-of-type(2){
+          margin-bottom: 0px;}
+        .phone-div{ cursor: pointer; font-weight: normal; display: block; border:solid 1px #e33b3b; position: absolute; bottom: 12px; right: 10px; text-align: center; padding: 6px 12px; font-size: 14px; color:#e33b3b }
+      }
+    }
+  }
+
+  .list-panelRX{
+    margin-bottom: 20px;
+    .list-box{
+      @extend %border; padding: 20px 72px;
+      .col-xs-3{ text-align: center; padding-top: 10px; padding-bottom: 10px;
+        >img{ max-width: 100%; height: auto; margin-bottom: 5px;}
+        h4{ font-size: 16px; color: #242424; font-weight: normal;}
+      }
+    }
+    .inLsit-box{
+      border-top: solid 1px #eeeeee;border-bottom: solid 1px #eeeeee; padding-bottom: 30px;
+      >div{
+        width: 252px;height: auto; float: left; text-align: center; margin-left: 23px; margin-right: 22px;
+        >img{ max-width: 100%; height: auto; margin-bottom: 5px;}
+        h4{ font-size: 16px; color: #242424; font-weight: normal;}
+      }
+    }
+  }
+
+  .nav-name{
+    @extend %borderB; margin-bottom: 20px;
+    h4{ font-size: 24px; color: $headBar; float: left; margin-right: 35px; padding-top: 13px;}
+    ul{
+      float: left;
+      li{
+        padding: 15px 0px; margin-right: 25px; font-size: 16px; color: $grey; margin-bottom: -1px;
+        &:last-child{ margin-right: 0px;}
+        &.active{ border-bottom: solid 1px $headRed; color: $headRed;}
+      }
+    }
+    >a{padding: 15px 0px; }
+  }
+
+  .img-span{
+    position: relative;
+    a{ position: absolute; bottom: 0px; left: 0px; right: 0px; color: $white; padding: 12px 15px; font-size: 16px; }
+  }
+
+
+  .list-panelTP{
+    .title-name{
+      h4{ float: left;font-size: 24px; color: $headBar; float: left; margin-right: 35px;}
+      a{ float: right; font-size: 14px; color: #242424; margin-top: 3px;
+        >img{ width: 19px; height: 20px; margin-right: 10px;}
+      }
+    }
+    .img-span{ width: 396px; height: 275px; float: left;position: relative;
+      >img { width: 396px; height: 275px;}
+      span{ position: absolute; bottom: 0px; left: 0px; right: 0px; color: $white; padding: 12px 15px; font-size: 16px;cursor: pointer; }
+    }
+  }
+
+  .list-panelTK{
+    .list-img{
+      >.row{ margin-left: -5px; margin-right: -5px;
+        >[class^="col"]{
+          padding-left: 5px; padding-right: 5px;
+          >div{
+            margin-bottom: 10px;
+          }
+        }
+        img{ width: 100%; height: auto;}
+      }
+    }
+  }
+  .list-panelZX{
+    .list-info{
+      ul{
+        padding: 20px 10px;
+      }
+      li{
+        line-height: 34px; font-size: 14px;color: $headBar;
+        &:before{content: "."}
+      }
+    }
+  }
+
+  .list-panelHB{
+    .list-logo{
+      margin-bottom: 48px;
+      ul{font-size: 0px;}
+      li{
+        margin-right: 70px;padding: 0px;
+        &:last-child{ margin-right: 0px;}
+        img{
+          width: 110px; height: 90px;
+        }
+      }
+    }
+  }
+}
+
+.fixedBM{
+  position: fixed;bottom: 0px;right: 100px; z-index: 2;
+  .input-phone{ background: #e33b3b; padding: 9px; position: relative; margin-bottom: 10px; box-sizing: border-box;width: 292px;
+    >input{border-radius: 0px;border:none; float: left; width: 190px; height: 32px;}
+    >input:focus{
+      border-color: $headRed;
+      box-shadow: none;
+    }
+    >span{ padding: 5px 5px 5px 15px;color: #fff; font-size: 16px; line-height: 32px;}
+    >i{ width: 0px; height: 0px;border-top:solid 7px $headRed; border-left: 7px solid transparent; border-right: solid 7px transparent;display: inline-block;
+      position: absolute; bottom: -7px; left: 17px;
+    }
+  }
+  .div-group{
+    >div{ float: left; padding: 15px 20px; font-size: 14px; color: #fff; background: #313131;border-right: solid 1px #242424; height: 50px; cursor: pointer;
+      &.active{ background: $headRed;}
+      >img{margin-right: 5px;}
+    }
+  }
+}

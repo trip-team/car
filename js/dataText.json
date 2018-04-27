@@ -1,0 +1,646 @@
+[
+  {
+    "id": 1,
+    "title": "东风多利卡8吨洒水车",
+    "pic": "/upload/swt/20170318/1489809428258879.jpg",
+    "minprice": 11.3,
+    "maxprice": 13.5
+  },
+  {
+    "id": 2,
+    "title": "东风多利卡5吨洒水车",
+    "pic": "/upload/swt/20170318/1489808976621895.jpg",
+    "minprice": 9.2,
+    "maxprice": 9.7
+  },
+  {
+    "id": 3,
+    "title": "东风12吨洒水车",
+    "pic": "/upload/swt/20170318/1489809158643023.jpg",
+    "minprice": 15.2,
+    "maxprice": 16.7
+  },
+  {
+    "id": 4,
+    "title": "福田欧马可5吨洒水车",
+    "pic": "/upload/swt/20170316/1489648727694619.jpg",
+    "minprice": 10.3,
+    "maxprice": 12.5
+  },
+  {
+    "id": 5,
+    "title": "东风天锦12吨洒水车",
+    "pic": "/upload/swt/20170316/1489654613793118.jpg",
+    "minprice": 19.2,
+    "maxprice": 19.8
+  },
+  {
+    "id": 6,
+    "title": "东风创普15吨洒水车",
+    "pic": "/upload/swt/20170316/1489653289133166.jpg",
+    "minprice": 17.6,
+    "maxprice": 18.3
+  },
+  {
+    "id": 7,
+    "title": "福田时代3吨洒水车",
+    "pic": "/upload/swt/20170316/1489653066597926.jpg",
+    "minprice": 5.2,
+    "maxprice": 6.2
+  },
+  {
+    "id": 8,
+    "title": "东风后双桥18吨洒水车",
+    "pic": "/upload/swt/20170316/1489652959237406.jpg",
+    "minprice": 20.3,
+    "maxprice": 22.5
+  },
+  {
+    "id": 9,
+    "title": "东风天龙20吨洒水车",
+    "pic": "/upload/swt/20170316/1489648196631749.jpg",
+    "minprice": 28.3,
+    "maxprice": 30.2
+  },
+  {
+    "id": 10,
+    "title": "东风特商18吨洒水车",
+    "pic": "/upload/swt/20170316/1489655050106047.jpg",
+    "minprice": 22.3,
+    "maxprice": 24.6
+  },
+  {
+    "id": 11,
+    "title": "福田欧马可12吨洒水车",
+    "pic": "/upload/swt/20170316/1489646538809642.jpg",
+    "minprice": 17.4,
+    "maxprice": 18.5
+  },
+  {
+    "id": 12,
+    "title": "福田瑞沃12吨洒水车",
+    "pic": "/upload/swt/20170316/1489647168300103.jpg",
+    "minprice": 15.3,
+    "maxprice": 16.7
+  },
+  {
+    "id": 13,
+    "title": "江淮5吨洒水车",
+    "pic": "/upload/swt/20170318/1489818250111719.jpg",
+    "minprice": 13,
+    "maxprice": 14
+  },
+  {
+    "id": 14,
+    "title": "东风小三轴20吨洒水车",
+    "pic": "/upload/swt/20170316/1489648619106383.jpg",
+    "minprice": 25.3,
+    "maxprice": 26.6
+  },
+  {
+    "id": 15,
+    "title": "重汽斯太尔18吨洒水车",
+    "pic": "/upload/swt/20170316/1489652782939082.jpg",
+    "minprice": 28,
+    "maxprice": 30.6
+  },
+  {
+    "id": 16,
+    "title": "东风D9  12吨洒水车",
+    "pic": "/upload/swt/20170324/1490339061295499.jpg",
+    "minprice": 14.5,
+    "maxprice": 15.7
+  },
+  {
+    "id": 17,
+    "title": "东风御龙18吨洒水车",
+    "pic": "/upload/swt/20170316/1489655480751550.jpg",
+    "minprice": 22.4,
+    "maxprice": 23.5
+  },
+  {
+    "id": 18,
+    "title": "东风御虎6.3吨随车吊",
+    "pic": "/upload/swt/20170321/1490033127824919.jpg",
+    "minprice": 24.9,
+    "maxprice": 26.8
+  },
+  {
+    "id": 19,
+    "title": "解放12吨洒水车",
+    "pic": "/upload/swt/20170317/1489716019425326.jpg",
+    "minprice": 18.2,
+    "maxprice": 19.7
+  },
+  {
+    "id": 20,
+    "title": "东风天锦8吨随车吊",
+    "pic": "/upload/swt/20170321/1490032827558853.jpg",
+    "minprice": 25.8,
+    "maxprice": 27.2
+  },
+  {
+    "id": 21,
+    "title": "东风柳汽6.3吨随车吊",
+    "pic": "/upload/swt/20170321/1490032539118371.jpg",
+    "minprice": 29.5,
+    "maxprice": 31.6
+  },
+  {
+    "id": 22,
+    "title": "东风专底12吨洒水车",
+    "pic": "/upload/swt/20170318/1489817401118944.jpg",
+    "minprice": 13.7,
+    "maxprice": 14.8
+  },
+  {
+    "id": 23,
+    "title": "东风多利卡蓝牌清障车",
+    "pic": "/upload/swt/20170318/1489806857136716.jpg",
+    "minprice": 10.5,
+    "maxprice": 10.9
+  },
+  {
+    "id": 24,
+    "title": "东风5吨油罐车",
+    "pic": "/upload/swt/20170319/1489893017132907.jpg",
+    "minprice": 13.2,
+    "maxprice": 18.5
+  },
+  {
+    "id": 25,
+    "title": "重汽王牌3.2吨小型随车吊",
+    "pic": "/upload/swt/20170321/1490028302518489.jpg",
+    "minprice": 12.5,
+    "maxprice": 15.6
+  },
+  {
+    "id": 26,
+    "title": "长安2.7米小型冷藏车",
+    "pic": "/upload/swt/20170330/1490865278107415.jpg",
+    "minprice": 5.6,
+    "maxprice": 6.8
+  },
+  {
+    "id": 27,
+    "title": "解放8吨随车吊",
+    "pic": "/upload/swt/20170321/1490032282109227.jpg",
+    "minprice": 28.9,
+    "maxprice": 31.6
+  },
+  {
+    "id": 28,
+    "title": "东风2吨小型随车吊",
+    "pic": "/upload/swt/20170321/1490028004139556.jpg",
+    "minprice": 12.3,
+    "maxprice": 13.6
+  },
+  {
+    "id": 29,
+    "title": "唐骏3.2吨小型随车吊",
+    "pic": "/upload/swt/20170321/1490026242138084.jpg",
+    "minprice": 12.5,
+    "maxprice": 13.6
+  },
+  {
+    "id": 30,
+    "title": "江铃2吨小型随车吊",
+    "pic": "/upload/swt/20170321/1490027639762437.jpg",
+    "minprice": 12.6,
+    "maxprice": 13.8
+  },
+  {
+    "id": 31,
+    "title": "徐工8吨随车吊",
+    "pic": "/upload/swt/20170321/1490032085127244.jpg",
+    "minprice": 25.8,
+    "maxprice": 26.9
+  },
+  {
+    "id": 32,
+    "title": "陕汽16吨随车吊",
+    "pic": "/upload/swt/20170321/1490031881990720.jpg",
+    "minprice": 59.6,
+    "maxprice": 63.8
+  },
+  {
+    "id": 33,
+    "title": "东风天龙16吨随车吊",
+    "pic": "/upload/swt/20170321/1490031605611696.jpg",
+    "minprice": 59.8,
+    "maxprice": 62.9
+  },
+  {
+    "id": 34,
+    "title": "东风10吨随车吊",
+    "pic": "/upload/swt/20170321/1490031374388103.jpg",
+    "minprice": 36.9,
+    "maxprice": 42.5
+  },
+  {
+    "id": 35,
+    "title": "东风特商12吨随车吊",
+    "pic": "/upload/swt/20170321/1490031136249283.jpg",
+    "minprice": 36.9,
+    "maxprice": 39.5
+  },
+  {
+    "id": 36,
+    "title": "25吨大型随车吊",
+    "pic": "/upload/swt/20170324/1490368602233275.jpg",
+    "minprice": 68.5,
+    "maxprice": 73.9
+  },
+  {
+    "id": 37,
+    "title": "江淮蓝牌清障车",
+    "pic": "/upload/swt/20170318/1489804050704731.jpg",
+    "minprice": 10.8,
+    "maxprice": 11.8
+  },
+  {
+    "id": 38,
+    "title": "福田欧马可蓝牌清障车",
+    "pic": "/upload/swt/20170318/1489808647113431.jpg",
+    "minprice": 13.6,
+    "maxprice": 14
+  },
+  {
+    "id": 39,
+    "title": "50吨大型随车吊",
+    "pic": "/upload/swt/20170324/1490368826669660.jpg",
+    "minprice": 86.5,
+    "maxprice": 91.8
+  },
+  {
+    "id": 40,
+    "title": "80吨大型随车吊",
+    "pic": "/upload/swt/20170324/1490369053121543.jpg",
+    "minprice": 99.6,
+    "maxprice": 102.9
+  },
+  {
+    "id": 41,
+    "title": "120吨大型随车吊",
+    "pic": "/upload/swt/20170324/1490369216136440.jpg",
+    "minprice": 139.2,
+    "maxprice": 145.8
+  },
+  {
+    "id": 42,
+    "title": "五十铃蓝牌清障车",
+    "pic": "/upload/swt/20170318/1489807840373429.jpg",
+    "minprice": 13,
+    "maxprice": 14.8
+  },
+  {
+    "id": 43,
+    "title": "东风多利卡5.6米清障车",
+    "pic": "/upload/swt/20170318/1489807206229144.jpg",
+    "minprice": 13,
+    "maxprice": 13.8
+  },
+  {
+    "id": 44,
+    "title": "福田伽途2.8米冷藏车",
+    "pic": "/upload/swt/20170318/1489807532104451.jpg",
+    "minprice": 5.6,
+    "maxprice": 6.9
+  },
+  {
+    "id": 45,
+    "title": "江铃国五蓝牌清障车",
+    "pic": "/upload/swt/20170318/1489808911102368.jpg",
+    "minprice": 11.5,
+    "maxprice": 12
+  },
+  {
+    "id": 46,
+    "title": "福田G7冷藏车",
+    "pic": "/upload/swt/20170318/1489808881231683.jpg",
+    "minprice": 10.2,
+    "maxprice": 11.5
+  },
+  {
+    "id": 47,
+    "title": "五十铃黄牌清障车",
+    "pic": "/upload/swt/20170318/1489818791128966.jpg",
+    "minprice": 15.5,
+    "maxprice": 17
+  },
+  {
+    "id": 48,
+    "title": "福田5.6米平板清障车",
+    "pic": "/upload/swt/20170318/1489818901865153.jpg",
+    "minprice": 15.5,
+    "maxprice": 16
+  },
+  {
+    "id": 49,
+    "title": "江淮国五5.6米清障车",
+    "pic": "/upload/swt/20170318/1489818972853535.jpg",
+    "minprice": 13.5,
+    "maxprice": 13.9
+  },
+  {
+    "id": 51,
+    "title": "解放J6平板6.2米清障车",
+    "pic": "/upload/swt/20170318/1489819450791655.jpg",
+    "minprice": 16.5,
+    "maxprice": 17.8
+  },
+  {
+    "id": 52,
+    "title": "天锦7.2米平板清障车",
+    "pic": "/upload/swt/20170318/1489819577957887.jpg",
+    "minprice": 20.5,
+    "maxprice": 22.5
+  },
+  {
+    "id": 53,
+    "title": "东风多利卡带吊清障车",
+    "pic": "/upload/swt/20170318/1489819699136884.jpg",
+    "minprice": 17.5,
+    "maxprice": 19.8
+  },
+  {
+    "id": 54,
+    "title": "东风4吨随车吊",
+    "pic": "/upload/swt/20170321/1490030968253672.jpg",
+    "minprice": 17.5,
+    "maxprice": 18.9
+  },
+  {
+    "id": 55,
+    "title": "徐工4吨随车吊",
+    "pic": "/upload/swt/20170321/1490030796105135.jpg",
+    "minprice": 18.5,
+    "maxprice": 19.8
+  },
+  {
+    "id": 56,
+    "title": "天锦随车吊清障车",
+    "pic": "/upload/swt/20170318/1489820819860636.jpg",
+    "minprice": 28,
+    "maxprice": 30.5
+  },
+  {
+    "id": 57,
+    "title": "东风8吨随车吊",
+    "pic": "/upload/swt/20170321/1490030559385306.jpg",
+    "minprice": 26.9,
+    "maxprice": 28.5
+  },
+  {
+    "id": 58,
+    "title": "东风12吨随车吊",
+    "pic": "/upload/swt/20170321/1490030255348084.jpg",
+    "minprice": 35.9,
+    "maxprice": 37.6
+  },
+  {
+    "id": 59,
+    "title": "徐工10吨随车吊",
+    "pic": "/upload/swt/20170321/1490029925592590.jpg",
+    "minprice": 31.9,
+    "maxprice": 33.5
+  },
+  {
+    "id": 60,
+    "title": "东风御龙12吨随车吊",
+    "pic": "/upload/swt/20170321/1490029756538843.jpg",
+    "minprice": 32.8,
+    "maxprice": 34.6
+  },
+  {
+    "id": 61,
+    "title": "五十铃2吨随车吊",
+    "pic": "/upload/swt/20170320/1490025352957026.jpg",
+    "minprice": 18.5,
+    "maxprice": 19.8
+  },
+  {
+    "id": 62,
+    "title": "解放J6单桥重型清障车",
+    "pic": "/upload/swt/20170320/1489970120703139.jpg",
+    "minprice": 29,
+    "maxprice": 30
+  },
+  {
+    "id": 63,
+    "title": "东风D9单桥重型清障车",
+    "pic": "/upload/swt/20170320/1489970652107217.jpg",
+    "minprice": 24.2,
+    "maxprice": 25.5
+  },
+  {
+    "id": 64,
+    "title": "天锦单桥托吊联体清障车",
+    "pic": "/upload/swt/20170321/1490091100937877.jpg",
+    "minprice": 27,
+    "maxprice": 28.8
+  },
+  {
+    "id": 65,
+    "title": "特商153单桥重型清障车",
+    "pic": "/upload/swt/20170321/1490091226225056.jpg",
+    "minprice": 25.5,
+    "maxprice": 27
+  },
+  {
+    "id": 66,
+    "title": "陕汽单桥托吊联体清障车",
+    "pic": "/upload/swt/20170321/1490091424126078.jpg",
+    "minprice": 39,
+    "maxprice": 40
+  },
+  {
+    "id": 67,
+    "title": "11111",
+    "pic": "/upload/swt/20170321/1490095114340123.jpg",
+    "minprice": 1,
+    "maxprice": 1
+  },
+  {
+    "id": 68,
+    "title": "金杯面包式冷藏车",
+    "pic": "/upload/swt/20170321/1490095627117894.jpg",
+    "minprice": 10.9,
+    "maxprice": 12.5
+  },
+  {
+    "id": 70,
+    "title": "江铃顺达4.2米冷藏车",
+    "pic": "/upload/swt/20170322/1490143074890930.jpg",
+    "minprice": 11.2,
+    "maxprice": 12.5
+  },
+  {
+    "id": 71,
+    "title": "江淮帅铃4.2米冷藏车",
+    "pic": "/upload/swt/20170322/1490143669370331.jpg",
+    "minprice": 13.5,
+    "maxprice": 17.9
+  },
+  {
+    "id": 72,
+    "title": "福田欧马可4.2米冷藏车",
+    "pic": "/upload/swt/20170322/1490144192418699.jpg",
+    "minprice": 15.5,
+    "maxprice": 18.5
+  },
+  {
+    "id": 73,
+    "title": "五十铃4.2米冷藏车",
+    "pic": "/upload/swt/20170322/1490144929125902.jpg",
+    "minprice": 15.8,
+    "maxprice": 17.8
+  },
+  {
+    "id": 74,
+    "title": "东风天锦6.1/7.4米冷藏车",
+    "pic": "/upload/swt/20170322/1490145951120002.jpg",
+    "minprice": 23.5,
+    "maxprice": 29.5
+  },
+  {
+    "id": 75,
+    "title": "东风9吨油罐车",
+    "pic": "/upload/swt/20170322/1490166835100311.jpg",
+    "minprice": 16.8,
+    "maxprice": 19.98
+  },
+  {
+    "id": 77,
+    "title": "解放J6后双桥重型清障车",
+    "pic": "/upload/swt/20170322/1490173492153494.jpg",
+    "minprice": 45.8,
+    "maxprice": 48.5
+  },
+  {
+    "id": 78,
+    "title": "特商153后双桥重型清障车",
+    "pic": "/upload/swt/20170322/1490173831239170.jpg",
+    "minprice": null,
+    "maxprice": null
+  },
+  {
+    "id": 79,
+    "title": "重汽豪沃后双桥清障车",
+    "pic": "/upload/swt/20170323/1490233949617333.jpg",
+    "minprice": 46.5,
+    "maxprice": 48
+  },
+  {
+    "id": 80,
+    "title": "北奔前四后八清障车",
+    "pic": "/upload/swt/20170323/1490234243109920.jpg",
+    "minprice": 53.3,
+    "maxprice": 55
+  },
+  {
+    "id": 81,
+    "title": "陕汽德龙前四后八清障车",
+    "pic": "/upload/swt/20170323/1490234512807018.jpg",
+    "minprice": 52,
+    "maxprice": 54.2
+  },
+  {
+    "id": 82,
+    "title": "重汽豪沃前四后八清障车",
+    "pic": "/upload/swt/20170323/1490234931109373.jpg",
+    "minprice": 51.5,
+    "maxprice": 53.6
+  },
+  {
+    "id": 83,
+    "title": "重汽豪沃360度旋转清障车",
+    "pic": "/upload/swt/20170323/1490235469543448.jpg",
+    "minprice": 71,
+    "maxprice": 73.8
+  },
+  {
+    "id": 84,
+    "title": "福田瑞沃6.8/7.6米冷藏车",
+    "pic": "/upload/swt/20170323/1490250882229445.jpg",
+    "minprice": 22.5,
+    "maxprice": 27.5
+  },
+  {
+    "id": 85,
+    "title": "江淮帅铃6.8/7.5米冷藏车",
+    "pic": "/upload/swt/20170323/1490251337120575.jpg",
+    "minprice": 23.5,
+    "maxprice": 30.5
+  },
+  {
+    "id": 86,
+    "title": "东风多利卡5.1米冷藏车",
+    "pic": "/upload/swt/20170323/1490256186252983.jpg",
+    "minprice": 14.2,
+    "maxprice": 17.5
+  },
+  {
+    "id": 87,
+    "title": "东风天龙9.6米冷藏车",
+    "pic": "/upload/swt/20170323/1490256344529161.jpg",
+    "minprice": 42.8,
+    "maxprice": 52.5
+  },
+  {
+    "id": 88,
+    "title": "13.8米半挂冷藏车",
+    "pic": "/upload/swt/20170323/1490256831134422.jpg",
+    "minprice": 38.9,
+    "maxprice": 45.7
+  },
+  {
+    "id": 89,
+    "title": "解放J6-6.8/7.5米冷藏车",
+    "pic": "/upload/swt/20170323/1490258514100358.jpg",
+    "minprice": 24.5,
+    "maxprice": 28.5
+  },
+  {
+    "id": 90,
+    "title": "欧马可5.2~7.5米冷藏车",
+    "pic": "/upload/swt/20170323/1490260081119155.jpg",
+    "minprice": 15.2,
+    "maxprice": 23.5
+  },
+  {
+    "id": 91,
+    "title": "江淮5吨油罐车",
+    "pic": "/upload/swt/20170324/1490335411243990.jpg",
+    "minprice": 15.8,
+    "maxprice": 19.98
+  },
+  {
+    "id": 92,
+    "title": "东风D916系列12吨随车吊",
+    "pic": "/upload/swt/20170325/1490425023161842.jpg",
+    "minprice": 41.8,
+    "maxprice": 45.9
+  },
+  {
+    "id": 93,
+    "title": "多利卡蓝牌一拖一清障车",
+    "pic": "/upload/swt/20170325/1490425271698319.jpg",
+    "minprice": 12,
+    "maxprice": 13.5
+  },
+  {
+    "id": 94,
+    "title": "江铃蓝牌一拖一清障车",
+    "pic": "/upload/swt/20170325/1490426122449251.jpg",
+    "minprice": 12.5,
+    "maxprice": 13.8
+  },
+  {
+    "id": 95,
+    "title": "五十铃蓝牌一拖一清障车",
+    "pic": "/upload/swt/20170325/1490427789625423.jpg",
+    "minprice": 15.5,
+    "maxprice": 16.9
+  }
+]

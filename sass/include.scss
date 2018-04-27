@@ -1,0 +1,80 @@
+$headTop:#fafafa;     //头部top背景色
+$borderLine:#eeeeee;     //边框下边缘线条颜色
+$font-size:12px;
+$headColor:#606060;      //header字体颜色
+$white:#ffffff;
+$headBar:#242424;
+$headRed:#e33b3b;
+$grey:#313131;
+@mixin border-Btline($type,$val,$color){
+  border-bottom: $type $val $color;
+}
+@mixin border-radius($val){
+  -webkit-border-radius: $val;
+  -ms-border-radius: $val;
+  -o-border-radius: $val;
+  -moz-border-radius: $val;
+  border-radius: $val;
+}
+//定义圆角方向
+@mixin border-radiusD($dir1,$dir2,$val){
+  -webkit-border-#{$dir1}-#{$dir2}-radius:$val;
+  -ms-border-#{$dir1}-#{$dir2}-radius:$val;
+  -o-border-#{$dir1}-#{$dir2}-radius:$val;
+  -moz-border-#{$dir1}-#{$dir2}-radius:$val;
+  border-#{$dir1}-#{$dir2}-radius:$val;
+}
+%borderB{
+  border-bottom: solid 1px $borderLine;
+}
+%border{
+  border:solid 1px $borderLine;
+}
+%div-center{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+%div-centerTB{
+  position: absolute;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+%div-centerLR{
+  position: absolute;
+  left:50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+%div-centerMG{
+  margin: auto;
+}
+//单行溢出省略
+%ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+//多行溢出省略
+%ellipsisRow  {
+  display: -webkit-box;
+  display: -moz-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;
+  -moz-line-clamp:3;
+}
